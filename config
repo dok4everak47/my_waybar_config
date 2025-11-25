@@ -25,6 +25,7 @@
 		"battery",
 		"custom/arrow3",
 		// "niri/language",
+		"custom/gammastep",
 		"custom/arrow2",
 		"tray",
 		"clock#date",
@@ -33,6 +34,13 @@
 	],
 
 	// Modules
+
+	"custom/gammastep": {
+  "format": "{}",
+  "exec": "~/.local/bin/gammastep-toggle.sh",
+  "interval": 10,
+  "return-type": "json"
+},
 
 	"backlight": {
         // 设备名称，根据上一步的结果填写
@@ -119,7 +127,7 @@
 
 	"network": {
 		"interval": 5,
-		"format-wifi": " {essid} ({signalStrength}%)",
+		"format-wifi": "  {essid} ({signalStrength}%)",
 		"format-ethernet": "📡 {ifname}",
 		"format-disconnected": "No connection",
 		"format-alt": " {ipaddr}/{cidr}",
