@@ -50,7 +50,7 @@
         "format": "{icon} {percent}%",
         
         // 图标设置（根据亮度百分比显示不同图标）
-        "format-icons": ["🔅", "🔆"],
+        "format-icons": ["🔅 ", "🔆 "],
         // 或者使用多级图标：
         // "format-icons": ["🌑", "🌒", "🌓", "🌔", "🌕"],
         
@@ -75,11 +75,11 @@
 		"format-full": "{icon} {capacity}%",
 		"format-alt": "{icon} {power}W",
 		"format-icons": [
-			" ",
-			" ",
-			" ",
-			" ",
-			" "
+			"  ",
+			"  ",
+			"  ",
+			"  ",
+			"  "
 		],
 		"tooltip": false
 	},
@@ -100,7 +100,7 @@
 	"cpu": {
 		"interval": 5,
 		"tooltip": false,
-		"format": " {usage}%",
+		"format": "  {usage}%",
 		"format-alt": " {load}",
 		"states": {
 			"warning": 70,
@@ -127,7 +127,7 @@
 
 	"network": {
 		"interval": 5,
-		"format-wifi": "  {essid} ({signalStrength}%)",
+		"format-wifi": "    {essid} ({signalStrength}%)",
 		"format-ethernet": "📡 {ifname}",
 		"format-disconnected": "No connection",
 		"format-alt": " {ipaddr}/{cidr}",
@@ -155,15 +155,15 @@
 	"pulseaudio": {
     "format": "{icon} {volume}%",
     "format-bluetooth": "{icon}󰂱 {volume}%",
-    "format-muted": "󰖁",
+    "format-muted": "󰖁 ",
     "format-icons": {
-        "headphone": ["󰋌", "󰋎", "󰋐"],
-        "hands-free": ["󰋌", "󰋎", "󰋐"],
-        "headset": ["󰋌", "󰋎", "󰋐"],
+        "headphone": ["󰋌 ", "󰋎 ", "󰋐 "],
+        "hands-free": ["󰋌 ", "󰋎 ", "󰋐 "],
+        "headset": ["󰋌 ", "󰋎 ", "󰋐 "],
         "phone": ["󰏲", "󰏳", "󰏴"],
         "portable": ["󰏲", "󰏳", "󰏴"],
         "car": ["󰄛", "󰄜", "󰄝"],
-        "default": ["󰕿", "󰖀", "󰕾"]
+        "default": ["󰕿 ", "󰖀 ", "󰕾 "]
     },
     "scroll-step": 1,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
@@ -177,11 +177,11 @@
 		"interval": 5,
 		"format": "{icon} {temperatureC}°",
 		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
+			" ",
+			" ",
+			" ",
+			" ",
+			" "
 		],
 		"tooltip": false
 	},
