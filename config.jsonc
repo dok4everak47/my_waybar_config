@@ -18,8 +18,8 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/smallspacer","hyprland/workspaces","custom/spacer","mpris"],
-	"modules-center": ["custom/padd","custom/l_end","custom/r_end","hyprland/window","custom/padd"],
+	"modules-left": ["custom/smallspacer","niri/workspaces","custom/spacer","mpris"],
+	"modules-center": ["custom/padd","custom/l_end","custom/r_end","niri/window","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","group/expand","network","group/expand-3","group/expand-2","group/expand-4","memory","cpu","clock","custom/notification","custom/padd"],
 
 
@@ -134,12 +134,12 @@
     "escape": true
   },
   
-  "hyprland/window": {  
-//"format": "{}"   // <--- these is the default value  
-"format": "<span  weight='bold' >{class}</span>",
- "max-length": 120,
- "icon": false,
- "icon-size": 13,
+"niri/window": {  
+    //"format": "{}"   // <--- these is the default value  
+    "format": "<span  weight='bold' >{class}</span>",
+    "max-length": 120,
+    "icon": false,
+    "icon-size": 13
 },
 
     "custom/power": {
@@ -158,7 +158,7 @@
 
     
     
-"hyprland/workspaces": {
+"niri/workspaces": {
 	"format": "{icon}",
 	"format-icons": {
 	"default": "",
@@ -305,7 +305,7 @@
     "clock": {
         "format": "{:%I:%M %p}",
         "rotate": 0,
-       "on-click": "/usr/local/bin/ags -t ActivityCenter",
+        "on-click": "/usr/local/bin/ags -t ActivityCenter",
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
             "mode": "month",
