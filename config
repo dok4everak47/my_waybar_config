@@ -67,11 +67,11 @@
 		"format-full": "{icon} {capacity}%",
 		"format-alt": "{icon} {power}W",
 		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
+			" ",
+			" ",
+			" ",
+			" ",
+			" "
 		],
 		"tooltip": false
 	},

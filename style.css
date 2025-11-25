@@ -62,8 +62,9 @@
 #waybar {
 background: rgba(40, 40, 40, 0.8784313725); /* #282828e0 */
 color: @white;
-font-family: JetBrains Mono, Siji;
-font-size: 12pt;
+/* font-family: JetBrains Mono, Siji; */
+font-family: LXGWWenKai;
+font-size: 14pt;
 /*font-weight: bold;*/
 }
 
